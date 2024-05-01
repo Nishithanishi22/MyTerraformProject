@@ -15,8 +15,8 @@ public class CustomerController {
     CustomerService customerService;
 
     @GetMapping("customers")
-    public List<Customer> getallCustomer() {
-        return customerService.readCustomer();
+    public List<Customer>  getAllCustomers() {
+        return customerService.readCustomers();
     }
 
     @PostMapping("customers")

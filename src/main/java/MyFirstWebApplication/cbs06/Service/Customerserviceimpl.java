@@ -25,7 +25,7 @@ public class Customerserviceimpl implements  CustomerService{
     }
 
     @Override
-    public List<Customer> readCustomer() {
+    public List<Customer> readCustomers() {
         List<CustomerEntity> customersList = customerrepository.findAll();
 
         List<Customer> customers = new ArrayList<>();
