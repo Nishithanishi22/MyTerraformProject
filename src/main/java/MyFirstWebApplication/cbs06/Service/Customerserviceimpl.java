@@ -35,7 +35,8 @@ public class Customerserviceimpl implements  CustomerService{
             Customer customer = new Customer();
 
             customer.setId(customerEntity.getId());
-            customer.setName(customerEntity.getName());
+            customer.setFirst_name(customerEntity.getFirst_name());
+            customer.setLast_name(customerEntity.getLast_name());
             customer.setEmail(customerEntity.getEmail());
 
             customers.add(customer);

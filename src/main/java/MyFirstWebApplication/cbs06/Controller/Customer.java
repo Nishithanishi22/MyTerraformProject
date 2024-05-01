@@ -11,8 +11,12 @@ import lombok.NoArgsConstructor;
 public class Customer {
     private    Long      Id;
 
-    private    String    Name;
+    private    String    First_name;
+
+    private    String    Last_name;
 
     private    String    Email;
+
+
 
 }
